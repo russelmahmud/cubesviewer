@@ -522,7 +522,7 @@
         var http_args = {};
 
         if (args.cut) http_args.cut = args.cut.toString();
-        if (args.measure) http_args.measure = args.measure.toString();
+        if (args.aggregates) http_args.aggregates = args.aggregates.toString();
         if (args.drilldown) http_args.drilldown = args.drilldown.toString();
         if (args.split) http_args.split = args.split.toString();
         if (args.order) http_args.order = args.order.toString();
